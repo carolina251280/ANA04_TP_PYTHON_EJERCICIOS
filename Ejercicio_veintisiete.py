@@ -10,4 +10,4 @@ print(l2)
 for fila in l2:
     for elemento in fila:
         producto = elemento * l1[elemento - 1]  
-        print(f"Coordenadas ({elemento}, {l1[elemento - 1]}): Producto = {producto}")
+        print("Coordenadas", elemento, l1[elemento - 1], ": Producto = ", producto)
